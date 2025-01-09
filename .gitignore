@@ -1,0 +1,5 @@
+# Ignoruj foldery zaczynające się od kropki
+/.*/ 
+
+# Wyjątki
+!/.gitignore
