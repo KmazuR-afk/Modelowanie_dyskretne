@@ -10,5 +10,5 @@ Bitmapowanie, lab 2 i lab 3 realizują edycje obrazów i podstawowe operacje (er
 ## Gra w życie:
 <p align="justify">
 Projekt "Gra w życie" realizuje automat komórkowy Conway'a. W implementacji posłużyłem się biblioteką pygame 2.4.1 do wizualizacji i stworzenia prostego GUI - </p>
-![](https://github.com/KmazuR-afk/Modelowanie_dyskretne/raw/Gra_W_Zycie/img.png)
+![](https://github.com/KmazuR-afk/Modelowanie_dyskretne/raw/main/Gra_W_Zycie/img.png)
 
