@@ -55,7 +55,7 @@ class Environment:
 
         for escapee in self.escapees:
             self.move_escape(escapee)
-            for hunter in self.hunters:
-                self.move_hunter(hunter)
+        for hunter in self.hunters:
+            self.move_hunter(hunter)
         self.check_captures()
         self.check_exits()
