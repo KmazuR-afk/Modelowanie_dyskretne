@@ -18,6 +18,7 @@ Projekt "Gra w życie" realizuje automat komórkowy Conway'a. W implementacji po
 ## Labirynt
 <p align="justify">
 Projekt Implementuje symulacje labiryntu, w którym użytkownik może:</p>
+
 - samemu stowrzyć przestrzeń labiryntu wraz z łowcami
 - wybrać już istniejącą mapę (zdjęcie poniżej) 
 
