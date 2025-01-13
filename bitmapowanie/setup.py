@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="lab_1",
+    name="bitmapowanie",
     version="0.1",
     packages=find_packages(),
 )
