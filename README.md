@@ -23,7 +23,7 @@ Projekt Implementuje symulacje labiryntu, w którym użytkownik może:</p>
 - wybrać już istniejącą mapę (zdjęcie poniżej) 
 
 <div align="center">
-  <img src="Labirynt/default.png" alt="GUI Gry w Życiu" width="500">
+  <img src="Labirynt/default.png" alt="GUI Gry w Życiu" width="250">
 </div>
 
 <p align="justify">
