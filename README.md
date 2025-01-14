@@ -12,7 +12,7 @@ Bitmapowanie, lab 2 i lab 3 realizują edycje obrazów i podstawowe operacje (er
 Projekt "Gra w życie" realizuje automat komórkowy Conway'a. W implementacji posłużyłem się biblioteką pygame 2.4.1 do wizualizacji i stworzenia prostego GUI (zdjęcie poniżej). Zaimplementowałem możliwość dodawania w czasie rzeczywistym podstawowych wzorów oraz zmiane warunków brzegowych</p>
 
 <div align="center">
-  <img src="Gra_W_Zycie/img.png" alt="GUI Gry w Życiu" width="500">
+  <img src="Gra_W_Zycie/img.png" alt="GUI Gry w Życiu" width="300">
 </div>
 
 ## Labirynt
@@ -23,14 +23,14 @@ Projekt Implementuje symulacje labiryntu, w którym użytkownik może:</p>
 - wybrać już istniejącą mapę (zdjęcie poniżej) 
 
 <div align="center">
-  <img src="Labirynt/default.png" alt="GUI Gry w Życiu" width="250">
+  <img src="Labirynt/default.png" alt="LABIRUNT.bmp" width="250">
 </div>
 
 <p align="justify">
 Dalej z bazy danych użytkownik wgrywa uciekinierów umieszczając ich w opdowiednich miejscach w Labiryncie. Zarówno uciekinierzy (kolor złoty), jak i łowcy (kolor czerwony) do osiągnięcia celu używają algortymu astar, natomiast uciekinierzy dodatkowo mają dodany element podstawowego q-learningu w czasie trwania symulacji. Celem łowcy jest złapanie najbliższefo uciekiniera, a uciekiniera unikanie łowców i dotarcie do wyjścia (kolor zielony). Oboje mogą poruszać się tylko i wyłącznie po korytarzach (kolor biały). Baza danych obsługiwana jest na localhost z kontenera docker-owego. GUI zaimplementowane przy użyciu pygame:</p>
 
 <div align="center">
-  <img src="Labirynt/GUI.png" alt="GUI Gry w Życiu" width="500">
+  <img src="Labirynt/GUI.png" alt="Screenshot symulacji" width="300">
 </div>
 
 ## LGA:
@@ -39,15 +39,15 @@ W folderze zawarta jest implementacja nie tylko LGA, ale również dyfuzji LBM o
 
 - LGA
   <div align="center">
-  <img src="LGA/LGA.png" alt="GUI Gry w Życiu" width="500">
+  <img src="LGA/LGA.png" alt="LGA" width="300">
 </div>
 
 - LBM dyfuzja
   <div align="center">
-  <img src="LGA/LBM_d.png" alt="GUI Gry w Życiu" width="500">
+  <img src="LGA/LBM_d.png" alt="LBM_dif" width="300">
 </div>
 
 - LBM przepływ
   <div align="center">
-  <img src="LGA/LBM_f.png" alt="GUI Gry w Życiu" width="500">
+  <img src="LGA/LBM_f.png" alt="LBM_flow" width="300">
 </div>
