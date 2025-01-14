@@ -32,3 +32,21 @@ Dalej z bazy danych użytkownik wgrywa uciekinierów umieszczając ich w opdowie
 <div align="center">
   <img src="Labirynt/GUI.png" alt="GUI Gry w Życiu" width="500">
 </div>
+## LGA:
+<p allign="center">
+W folderze zawarta jest implementacja nie tylko LGA, ale również dyfuzji LBM oraz przepływu LBM. O ile do realizacji LGA podszedłem w inny sposób - tworząc klasę środowiska i cząsteczek - to dyfuzje LBM zdefiniowałem jako macierz 3 wymiarową - x,y,tablica gęstości zmierzającej w odpowiednich kierunkach z sąsiedztwa von Neumanna, natomiast przepływ LBM dziedziczy z dyfuzji ale rozszerza tablicę gęstości do 9 kierunków zgodnie z sąsiedztwem Moore'a. W obu przypadkach LBM użyłem biblioteki Numba w celu zrównoleglenia obliczeń. Wyniki dla każdego z algorytmów po kolei:</p>
+
+- LGA
+  <div align="center">
+  <img src="LGA/LGA.png" alt="GUI Gry w Życiu" width="500">
+</div>
+
+- LBM dyfuzja
+  <div align="center">
+  <img src="LGA/LBM_d.png" alt="GUI Gry w Życiu" width="500">
+</div>
+
+- LBM przepływ
+  <div align="center">
+  <img src="LGA/LBM_f.png" alt="GUI Gry w Życiu" width="500">
+</div>
