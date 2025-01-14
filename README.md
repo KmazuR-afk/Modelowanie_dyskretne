@@ -27,7 +27,7 @@ Projekt Implementuje symulacje labiryntu, w którym użytkownik może:</p>
 </div>
 
 <p align="justify">
-Dalej z bazy danych użytkownik wgrywa uciekinierów umieszczając ich w opdowiednich miejscach w Labiryncie. Zarówno uciekinierzy, jak i łowcy do osiągnięcia celu używają algortymu astar, natomiast uciekinierzy dodatkowo mają dodany element podstawowego q-learningu w czasie trwania symulacji. Celem łowcy jest złapanie najbliższefo uciekiniera, a uciekiniera unikanie łowców i dotarcie do wyjścia. Baza danych obsługiwana jest na localhost z kontenera docker-owego. GUI zaimplementowane przy użyciu pygame:</p>
+Dalej z bazy danych użytkownik wgrywa uciekinierów umieszczając ich w opdowiednich miejscach w Labiryncie. Zarówno uciekinierzy (kolor złoty), jak i łowcy (kolor czerwony) do osiągnięcia celu używają algortymu astar, natomiast uciekinierzy dodatkowo mają dodany element podstawowego q-learningu w czasie trwania symulacji. Celem łowcy jest złapanie najbliższefo uciekiniera, a uciekiniera unikanie łowców i dotarcie do wyjścia (kolor zielony). Oboje mogą poruszać się tylko i wyłącznie po korytarzach (kolor biały). Baza danych obsługiwana jest na localhost z kontenera docker-owego. GUI zaimplementowane przy użyciu pygame:</p>
 
 <div align="center">
   <img src="Labirynt/GUI.png" alt="GUI Gry w Życiu" width="500">
