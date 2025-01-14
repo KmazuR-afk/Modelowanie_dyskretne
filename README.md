@@ -1,6 +1,6 @@
 # Modelowanie dyskretne
 <p align="justify">
-Bitmapowanie, lab 2 i lab 3 realizują edycje obrazów i podstawowe operacje (erozje, dylatacje, operacje otwarcia, zamknięcia ...). Nie są one obszernie opisane ponieważ zawierają pliki *.bmp obrazujące działanie funkcji. W realizacji wykorzystano biblioteki:</p>
+Bitmapowanie, lab 2 i lab 3 realizują edycje obrazów i podstawowe operacje (erozje, dylatacje, operacje otwarcia, zamknięcia ...). Nie są one obszernie opisane ponieważ zawierają pliki *.bmp obrazujące działanie funkcji oraz realizują podstawowe działania. W realizacji wykorzystano biblioteki:</p>
 
 - PIL
 - numpy
